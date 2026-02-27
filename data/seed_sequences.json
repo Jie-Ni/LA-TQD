@@ -1,0 +1,25 @@
+{
+  "sequences": [
+    "RGDVVAASSTTLLKK",
+    "GRGDSPK",
+    "RGDSPASSKPISSSS",
+    "CRGDCFC",
+    "RGDYEAEQQKLYRKE",
+    "RGDITEPQNLYRVAD",
+    "RGSDSMEEEKLYRIV",
+    "RGDQANEMKLYRRVK",
+    "RGDSFWAYIQKLNTT",
+    "RGDWKFLSQTAEIVP",
+    "RGDHLTEFLKQYNAW",
+    "TRGDWFALNKQMSPE",
+    "KRGDFYTENVWSALQ",
+    "RGDMFQSWYKTEALN",
+    "RGDNQWEAFYLKTIS",
+    "RGDLSKTYWENQAFI",
+    "SRGDYWFQKALEINT",
+    "RGDTFWYNKLQSAEI",
+    "NRGDYWLKETSFAQK",
+    "ERGDYWLKQTASIFN"
+  ],
+  "description": "Initial seed peptide sequences for LA-TQD archive initialization. All sequences are 15 residues and contain the mandatory RGD integrin-binding motif. Selected to span diverse biophysical niches (charge/hydropathy) of the 10x10 MAP-Elites grid."
+}

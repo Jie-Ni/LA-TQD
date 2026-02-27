@@ -1,0 +1,56 @@
+# ==============================================================================
+# LA-TQD: Core Dependencies
+# ==============================================================================
+
+# --- PyTorch & HuggingFace (required) ---
+torch>=2.1.0
+transformers>=4.40.0
+accelerate>=0.28.0
+sentencepiece>=0.1.99
+
+# --- Language Model Quantization (optional, for large models) ---
+bitsandbytes>=0.43.0   # 8-bit / 4-bit quantization
+
+# --- ESM-2 / ESMFold (fair-esm alternative, HF-native also works) ---
+fair-esm>=2.0.0        # Optional: pip install fair-esm
+
+# --- Scientific Computing ---
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# --- Bioinformatics ---
+biopython>=1.81       # Sequence manipulation utilities
+python-Levenshtein>=0.21.0  # Fast Levenshtein (fallback, we implement from scratch too)
+
+# --- Visualization ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# --- Molecular Dynamics Analysis ---
+mdtraj>=1.9.9         # RMSD computation, trajectory analysis
+
+# --- CLI & Progress ---
+tqdm>=4.65.0
+rich>=13.0.0          # Optional: prettier terminal output
+
+# --- Testing ---
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# ==============================================================================
+# Optional: In Silico Validation (install separately if running validation)
+# ==============================================================================
+# AutoDock Vina Python bindings:
+#   pip install vina
+# OR install vina binary from: https://github.com/ccsb-scripps/AutoDock-Vina
+#
+# Open Babel (for PDB → PDBQT conversion):
+#   conda install -c conda-forge openbabel
+#
+# TM-score binary:
+#   Download from https://zhanggroup.org/TM-score/
+#   Add to system PATH
+#
+# GROMACS (for MD simulations):
+#   https://manual.gromacs.org/documentation/2023.3/install-guide/
